@@ -33,7 +33,7 @@ export function Projects() {
          demo: 'https://youngberry1.github.io/Quiz-App/',
       },
       {
-         title: 'AI Content Generator',
+         title: 'Currency Converter',
          description:
             'A simple and intuitive currency conversion tool that allows users to quickly check exchange rates and convert amounts between different global currencies.',
          image: '/Currency-Converter.png',
