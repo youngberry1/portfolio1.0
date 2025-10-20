@@ -20,7 +20,7 @@ export function Projects() {
             'A clean and modern user registration form with input validation, designed for a seamless and secure sign-up experience. Built with React, Formik, Yup, and Tailwind CSS.',
          image: '/React-Form.png',
          tags: ['React', 'Formik & Yup', 'Form Validation', 'Tailwind CSS'],
-         github: 'https://github.com/youngberry1',
+         github: 'https://youngberry1.github.io/formik-react/',
          demo: 'https://youngberry1.github.io/formik-react/',
       },
       {
@@ -29,7 +29,7 @@ export function Projects() {
             "An interactive quiz application that tests users' knowledge with multiple-choice questions, featuring a timer to track performance.",
          image: '/Quiz.png',
          tags: ['Classes', 'HTML', 'CSS', 'JavaScript'],
-         github: 'https://github.com/youngberry1',
+         github: 'https://youngberry1.github.io/Quiz-App/',
          demo: 'https://youngberry1.github.io/Quiz-App/',
       },
       {
@@ -38,7 +38,7 @@ export function Projects() {
             'A simple and intuitive currency conversion tool that allows users to quickly check exchange rates and convert amounts between different global currencies.',
          image: '/Currency-Converter.png',
          tags: ['React', 'useCallback', 'Tailwind CSS'],
-         github: 'https://github.com/youngberry1',
+         github: 'https://youngberry1.github.io/currency-converter/',
          demo: 'https://youngberry1.github.io/currency-converter/',
       },
    ];
