@@ -108,7 +108,7 @@ export function Footer() {
                      <span className='text-white font-medium'>
                         Abdul Barcky Arimiyao
                      </span>
-                     . All rights reserved.
+                     All rights reserved.
                   </p>
                </motion.div>
             </div>
