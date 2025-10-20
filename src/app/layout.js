@@ -11,6 +11,9 @@ const inter = Inter({
 
 export const metadata = {
   title: "Abdul Barcky Arimiyao | Portfolio",
+  icons: {
+    icon: "/favicon.jpg",
+  },
   description:
     "I'm a Full Stack Developer | UI/UX Enthusiast | Problem Solver. Crafting beautiful, functional web experiences.",
   openGraph: {
