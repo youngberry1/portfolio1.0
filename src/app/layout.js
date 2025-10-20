@@ -17,7 +17,7 @@ export const metadata = {
     title: "Abdul Barcky Arimiyao | Portfolio",
     description:
       "I'm a Full Stack Developer | UI/UX Enthusiast | Problem Solver. Crafting beautiful, functional web experiences.",
-    url: "https://yourwebsite.com",
+    url: "https://trendingboss.vercel.app/",
     siteName: "Abdul Barcky Arimiyao Portfolio",
     images: [
       {
