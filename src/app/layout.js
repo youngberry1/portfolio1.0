@@ -1,7 +1,6 @@
 // app/layout.jsx
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Head from "next/head";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -10,12 +9,13 @@ const inter = Inter({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://trendingboss.vercel.app"),
   title: "Abdul Barcky Arimiyao | Portfolio",
+  description:
+    "I'm a Full Stack Developer | UI/UX Enthusiast | Problem Solver. Crafting beautiful, functional web experiences.",
   icons: {
     icon: "/favicon.jpg",
   },
-  description:
-    "I'm a Full Stack Developer | UI/UX Enthusiast | Problem Solver. Crafting beautiful, functional web experiences.",
   openGraph: {
     title: "Abdul Barcky Arimiyao | Portfolio",
     description:
@@ -45,22 +45,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="overflow-x-hidden scroll-smooth">
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta property="og:title" content={metadata.openGraph.title} />
-        <meta property="og:description" content={metadata.openGraph.description} />
-        <meta property="og:url" content={metadata.openGraph.url} />
-        <meta property="og:type" content={metadata.openGraph.type} />
-        <meta property="og:locale" content={metadata.openGraph.locale} />
-        {metadata.openGraph.images.map((img, index) => (
-          <meta key={index} property="og:image" content={img.url} />
-        ))}
-        <meta name="twitter:card" content={metadata.twitter.card} />
-        <meta name="twitter:title" content={metadata.twitter.title} />
-        <meta name="twitter:description" content={metadata.twitter.description} />
-        <meta name="twitter:creator" content={metadata.twitter.creator} />
-      </Head>
       <body className={`${inter.variable} font-sans bg-slate-900 text-white`}>
         {children}
       </body>
